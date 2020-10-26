@@ -1,0 +1,45 @@
+<resources>
+
+    <style name="Theme.FullScreen" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:screenOrientation">landscape</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DialogAnimationAtomico">
+        <item name="android:windowEnterAnimation">@anim/animatomico</item>
+    </style>
+
+    <style name="DialogAnimationMina">
+        <item name="android:windowEnterAnimation">@anim/animmina</item>
+    </style>
+
+    <style name="DialogAnimationPietrone">
+        <item name="android:windowEnterAnimation">@anim/animpietrone</item>
+    </style>
+
+    <style name="DialogAnimationPerforante">
+        <item name="android:windowEnterAnimation">@anim/animperforante</item>
+    </style>
+
+    <style name="DialogAnimationNormale">
+        <item name="android:windowEnterAnimation">@anim/animnormale</item>
+    </style>
+
+
+    <style name="DialogAnimationEsplosivo">
+        <item name="android:windowEnterAnimation">@anim/animesplosivo</item>
+    </style>
+
+    <style name="DialogAnimationDetonante">
+        <item name="android:windowEnterAnimation">@anim/animdetonante</item>
+    </style>
+
+
+
+</resources>
